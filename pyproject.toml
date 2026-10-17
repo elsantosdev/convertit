@@ -20,5 +20,8 @@ dependencies = [
     "pytest>=7.0.0"
 ]
 
+[tool.pytest.ini_options]
+pythonpath = ["."]
+
 [project.scripts]
 convertit = "src.cli:app"

@@ -26,7 +26,7 @@ def convert_document(input_path: str, output_path: str):
 
     log.info(
         f"Iniciar conversão de {ext_in.upper()} para {ext_out.upper()}...")
-    out.parent.mkdir(parents=True exist_ok=True)
+    out.parent.mkdir(parents=True, exist_ok=True)
 
     try:
         # 1: PDF -> Docx
